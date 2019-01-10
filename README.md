@@ -2,8 +2,7 @@
 
 bitcoinhdwallet - PrestaShop Bitcoin Payment Module
 
-Compatibility with PrestaShop >= v1.7.4.4 
-Version 1.0.1
+Compatibility with PrestaShop >= v1.7.5
 
 
 Title:
