@@ -42,7 +42,7 @@ class BitcoinHdWallet extends PaymentModule
         $this->displayName = $this->l('Direct Bitcoin Payments in HD Wallet');
         $this->description = $this->l('Accept bitcoin payments directly into your own HD wallet.');
         $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
-        $this->ps_versions_compliancy['min'] = '1.7.4.4';
+        $this->ps_versions_compliancy['min'] = '1.7.5';
         $this->cron_token = Tools::encrypt($this->name);
 
         if (!Configuration::get('LX_EXTENDED_PUBLIC_KEY')) {
